@@ -8,6 +8,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="green">#B5E61D</color>
+
 
     <color name="colorPrimary">#ffffff</color>
+
+    <color name="skyblue">#8ff7fd</color>
+    <color name="colorBalck">#1d2021</color>
+
+    <color name="colorGrey1">#888888</color>
+    <color name="colorGrey2">#5A5A5A</color>
+    <color name="colorAccent">#33FF8C </color>
 </resources>

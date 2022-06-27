@@ -3,8 +3,38 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/action_round.xml" value="0.1505" />
         <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/circale_green.xml" value="0.135" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/email_24.xml" value="0.1125" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/ic_baseline_contact_phone_24.xml" value="0.1125" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.11" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.109" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/ic_forgot_password.xml" value="0.1505" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1505" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1505" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/ic_menu_icon.xml" value="0.1505" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1505" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/ic_perm_.xml" value="0.1505" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/ic_phone.xml" value="0.1505" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/round.xml" value="0.11" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/roundbtn.xml" value="0.109" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/rounded_actionbar.xml" value="0.1505" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/rounded_search.xml" value="0.1505" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/drawable/rounded_search1.xml" value="0.1505" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/activity_cart.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/activity_forgot.xml" value="0.1" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/activity_main.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/activity_splashscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/app_bar_main.xml" value="0.265625" />
         <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/content_main.xml" value="0.265625" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/fragment_home.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/layout/nav_header_main.xml" value="0.4" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/menu/activity_footer_drawer.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/Oveggi/AndroidStudioProjects/OnlineStore/app/src/main/res/menu/main.xml" value="0.264" />
       </map>
     </option>
   </component>
