@@ -14,7 +14,7 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
     }
     public void Letsgo(View view) {
-        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        startActivity(new Intent(getApplicationContext(), Main2Activity.class));
         finish();
 
     }

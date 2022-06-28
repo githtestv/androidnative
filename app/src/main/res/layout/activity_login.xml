@@ -35,12 +35,12 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/login_name"
+                android:id="@+id/login_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:drawablePadding="20dp"
-                android:hint="@string/username"
+                android:hint="@string/email"
                 android:inputType="text"
                 android:padding="12dp"
                 android:gravity="center"
