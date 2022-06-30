@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_marginTop="7dp"
-    app:cardCornerRadius="5dp"
-    android:elevation="4dp">
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    android:layout_margin="5dp">
 
     <LinearLayout
-        android:background="#DFF"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        
+
         <ImageView
-            android:background="@drawable/border"
+
             android:id="@+id/cat_nav_img"
             android:scaleType="centerInside"
             android:src="@drawable/fruit"
@@ -43,27 +43,46 @@
                 android:layout_height="wrap_content"
                 android:text="Description"
                 android:ellipsize="end"
-
+                android:maxLines="2"
+                android:singleLine="false"
                 android:textColor="@color/colorBalck"/>
 
-            <TextView
-
+            <LinearLayout
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Discount"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/colorBalck"/>
+                android:orientation="horizontal">
 
+                <TextView
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price"/>
 
-            <TextView
-                android:id="@+id/nav_cat_discount"
+                <TextView
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30"/>
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="20% OFF"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:textColor="@color/purple_700"/>
+                android:orientation="horizontal">
+
+           <ImageView
+               android:layout_marginLeft="-5dp"
+               android:layout_width="70dp"
+               android:layout_height="30dp"
+               android:src="@drawable/stars"
+               />
+            </LinearLayout>
+
+
         </LinearLayout>
         <ImageView
             android:layout_width="match_parent"
