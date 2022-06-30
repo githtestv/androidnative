@@ -1,20 +1,20 @@
 package com.example.onlinestore.ui.login;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
 
+import androidx.fragment.app.Fragment;
+
+import com.example.onlinestore.Login;
 import com.example.onlinestore.R;
+import com.example.onlinestore.SignUp;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link LoginFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class LoginFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
@@ -61,6 +61,32 @@ public class LoginFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_login, container, false);
+        //return inflater.inflate(R.layout.activity_login, container, false);
+
+        View view = inflater.inflate(R.layout.activity_login,
+                container, false);
+        Button button = (Button) view.findViewById(R.id.login_btn);
+        TextView textview = (TextView) view.findViewById(R.id.sign_up);
+
+        button.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(getActivity(), Login.class);
+                startActivity(intent);
+            }
+        });
+
+        textview.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(getActivity(), SignUp.class);
+                startActivity(intent);
+            }
+        });
+        return view;
     }
 }
