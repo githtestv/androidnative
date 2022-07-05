@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f2f1"
+    tools:context=".ui.home.HomeFragment">
+    
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:elevation="3dp"
+            android:id="@+id/search_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/ic_search"
+            android:background="@drawable/rounded_search1"
+            android:padding="13dp"
+            android:hint="Search your item here"
+            android:drawablePadding="5dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/coresans_cr_medium"/>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:fontFamily="@font/coresans_cr_medium"
+               android:text="Popular products"
+               android:textSize="15dp"
+               android:textStyle="normal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_all_products"
+                android:fontFamily="@font/coresans_cr_medium"
+                android:layout_weight="1"
+                android:text="View All"
+                android:gravity="end"
+                android:layout_marginRight="7dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorBalck"/>
+            
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/poprec"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/coresans_cr_medium"
+                android:text="Explore Products"
+                android:textSize="15dp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_all_explore"
+                android:fontFamily="@font/coresans_cr_medium"
+                android:layout_weight="1"
+                android:text="View All"
+                android:gravity="end"
+                android:layout_marginRight="7dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorBalck"/>
+        </LinearLayout>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/explore_rec"
+            android:layout_marginTop="10dp"/>
+
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/coresans_cr_medium"
+            android:text="Recommended"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_all_Recommended"
+            android:fontFamily="@font/coresans_cr_medium"
+            android:layout_weight="1"
+            android:text="View All"
+            android:gravity="end"
+            android:layout_marginRight="7dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorBalck"/>
+    </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/Recommended"
+        android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
