@@ -19,4 +19,5 @@
     <color name="colorGrey1">#888888</color>
     <color name="colorGrey2">#5A5A5A</color>
     <color name="colorAccent">#33FF8C </color>
+    <color name="colorWhite">#FFFFFF</color>
 </resources>
